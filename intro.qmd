@@ -1,0 +1,134 @@
+---
+title: "Networks"
+author: "I Bartomeus"
+format: revealjs
+editor: visual
+---
+
+## Networks are tools
+
+-   Things interact with things
+
+-   Simple systems do not require complex network theory
+
+-   Complex systems can benefit from network theory.
+
+## Lord of the rings example
+
+(for Jose)
+
+## What is a network
+
+-   Topology
+
+    -   Nodes (vertices)
+
+    -   Links (edges)
+
+    -   Layers
+
+-   Dynamics
+
+    -   Fake dynamics
+
+    -   Deterministic L-V type equations
+
+    -   Structural stability conditions
+
+    -   Diffusion dynamics
+
+## Types of networks
+
+-   Unipartite - Bipartite - Tripartite
+
+-   Directed - Indirected
+
+-   Weigthed unweigthed
+
+-   Meta-webs
+
+## Networks as matrices
+
+-   Adjacency matrix
+
+-   Simetric / Asymetric
+
+-   Block matrices (collections of incidence matrix)
+
+## Levels of structure
+
+-   Macroscale: emergent properties
+
+    -   e.g. Nestedness
+
+-   Mesoscale: indirect interactions
+
+    -   e.g. Motifs
+
+-   Microscale: the role of nodes.
+
+    -   e.g. Degree
+
+## Questions first
+
+-   If you don't have a question, do not use networks.
+
+-   How index X changes along Y is not a question.
+
+## Examples
+
+-   Model pollen flow: random walk modularity "a la Allen-Perkins"
+
+-   Identify conservation priority areas: Strength (Marini et al.)
+
+-   Measure evidence of competition: Niche metrics (Magrach et al)
+
+-   Assess foraging flexibility: Beta-diversity of interactions (Noreika et al.)
+
+## Examples
+
+-   Identify species outcomes: Closeness centrality (Arroyo et al.)
+
+-   Assess stability: Topological imprints on Structural Stability (García-Callejas et al.)
+
+-   Identify general structural patterns: Motifs (Lanuza et al.)
+
+## Be aware of correlations
+
+-   e.g. Conectance vs Network size
+
+-   e.g. Nestedness vs degree distribution.
+
+-   Null models can only take you that far.
+
+## Indexes are misused. 
+
+-   Read the assumptions
+
+-   Interpret them accordingly
+
+-   The simpler it is, the less likely to misinterpret it.
+
+-   Examples:
+
+    -   WNODF
+
+    -   d'
+
+    -   niche overlap
+
+    -   PSI
+
+## Other stuff
+
+-   Be aware of sampling design / intensity
+
+    -   Plant vs pollinator centered
+
+    -   Equal vs representative effort
+
+    -   Missing links
+
+    -   Taxonomic issues
+
+-   Same names imply different calculations (e.g. modularity)
